@@ -10,6 +10,9 @@ const reset = css`
     --red: #e52e4d;
     --blue: #5429cc;
 
+    --black: #222;
+    --light-black: #333;
+
     --blue-light: #6933ff;
 
     --text-title: #363f5f;
