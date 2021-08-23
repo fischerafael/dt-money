@@ -1,3 +1,4 @@
+import { ButtonMain } from "../../../atoms/ButtonMain";
 import { Container, Content } from "./styles";
 
 export const Header = () => {
@@ -5,7 +6,7 @@ export const Header = () => {
     <Container>
       <Content>
         <img src="/logo.svg" alt="dt money" />
-        <button>New Transaction</button>
+        <ButtonMain>New Transaction</ButtonMain>
       </Content>
     </Container>
   );
