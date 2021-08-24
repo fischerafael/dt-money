@@ -6,12 +6,13 @@ export const GlobalStyle = createGlobalStyle`
 
 const reset = css`
   :root {
-    --background: #f0f2f5;
     --red: #e52e4d;
     --blue: #5429cc;
+    --green: #33cc95;
 
-    --black: #222;
-    --light-black: #333;
+    --black: #111827;
+    --light-black: #1f2937;
+    --lighter-black: #fafafa;
 
     --blue-light: #6933ff;
 
@@ -38,7 +39,7 @@ const reset = css`
   }
 
   body {
-    background: var(--background);
+    background: var(--light-black);
     -webkit-font-smoothing: antialiased;
   }
 
